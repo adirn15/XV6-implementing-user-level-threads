@@ -1,0 +1,13 @@
+// Simple grep.  Only supports ^ . * $ operators.
+
+#include "types.h"
+#include "stat.h"
+#include "user.h"
+
+int
+main(int argc, char *argv[])
+{
+  int x = alarm(10);
+  cprintf("x is %d\n",x);
+  exit();
+}
